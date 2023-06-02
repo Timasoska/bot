@@ -22,4 +22,5 @@ for event in VkLongPoll(session).listen(): #Перебираем объекты 
         user_name = user_info[0]["first_name"]  #Получение имени пользователя
 
         if text == "привет":
-            send_message(user_id,"Привет, " + user_name)
+            send_message(user_id,"Привет, " + user_name) 
+            #хуй
