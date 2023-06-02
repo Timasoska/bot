@@ -23,5 +23,4 @@ for event in VkLongPoll(session).listen(): #Перебираем объекты 
 
         if text == "привет":
             send_message(user_id,"Привет, " + user_name) 
-            #хуй
-            #EEEE
+
